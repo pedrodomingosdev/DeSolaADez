@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Adicionar Tema</title>
+</head>
+
+<body>
+    <fieldset>
+        <span>Adicionar Tema</span>
+        <form id="form-adicionar-tema">
+            <label for="titulo-tema">Titulo do Tema:</label>
+            <input type="text" name="titulo-tema" id="titulo-tema" placeholder="Titulo do Tema">
+            <br><br>
+            <button class="btn-add-tema" id="btn-add-tema">Adicionar Tema</button>
+            <button class="btn-gerar-json" id="btn-gerar-json">Gerar JSON</button>
+            <div id="temas-container">
+            </div>
+        </form>
+    </fieldset>
+
+    <script src="../js/adicionarJSON.js"></script>
+</body>
+
+</html>
