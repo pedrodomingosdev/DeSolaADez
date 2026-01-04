@@ -2,7 +2,7 @@ let totalTemas = 0;
 
 document.getElementById("btn-add-tema").addEventListener("click", function () {
 
-    if (totalTemas >= 28) return;
+    if (totalTemas >= 29) return;
 
     totalTemas++;
 
